@@ -18,9 +18,11 @@
 }
 
 .brand {
-	font-size: 2rem;
+	font-size: 3.5rem;
 	color: #f6c445;
 	margin-right: auto;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 /**************************/
