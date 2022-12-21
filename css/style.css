@@ -69,7 +69,7 @@
 	padding: 0 3.2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 5rem;
+	gap: 4rem;
 	align-items: center;
 }
 
@@ -112,6 +112,6 @@
 		grid-template-columns: 1fr;
 	}
 	.heading-primary {
-		text-align: center;
+		/* text-align: center; */
 	}
 }
