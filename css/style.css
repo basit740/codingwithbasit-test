@@ -155,6 +155,9 @@
 	.main-nav-list {
 		display: none;
 	}
+	.main-nav-link {
+		font-size: 3rem;
+	}
 	.hamburger {
 		display: block;
 	}
