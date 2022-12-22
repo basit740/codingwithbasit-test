@@ -14,15 +14,16 @@
 	left: 0;
 	right: 0;
 	padding: 0 15px;
-	line-height: 50px;
+	/* line-height: 100px; */
 }
 
 .brand {
-	font-size: 3.5rem;
-	color: #f6c445;
+	/* font-size: 3.5rem;
+	color: #f6c445; */
 	margin-right: auto;
 	font-weight: bold;
 	text-decoration: underline;
+	padding: 10px 0;
 }
 
 /**************************/
@@ -51,7 +52,51 @@
 }
 .hamburger-item {
 	width: 2.5rem;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #fbe7b5;
+}
+
+.mobile-nav-close {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	z-index: 3;
+}
+.mobile-nav-close h6 {
+	font-size: 4rem;
+	color: #fbe7b5;
+	cursor: pointer;
+}
+
+.mobile-navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	background-color: #31270e;
+	background-color: #191407;
+	background-color: rgba(25, 20, 7, 0.85);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mobile-navigation-content {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mobile-navigation-list {
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	gap: 1.6rem;
+	list-style: none;
 }
 
 /**************************/
@@ -61,7 +106,7 @@
 .section-hero {
 	background-color: #f6c445;
 	padding: 4.8rem 0 9.6rem 0;
-	margin-top: 4rem;
+	margin-top: 8.6rem;
 }
 .hero {
 	max-width: 130rem;
@@ -101,6 +146,9 @@
 		font-size: 40%;
 	}
 
+	.logo {
+		width: 80px;
+	}
 	.main-nav-list {
 		display: none;
 	}
@@ -114,4 +162,8 @@
 	.heading-primary {
 		/* text-align: center; */
 	}
+}
+
+.hide {
+	display: none;
 }

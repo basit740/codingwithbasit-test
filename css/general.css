@@ -24,15 +24,16 @@ Paragraph default: 1.6
 
 - Primary: #f6c445
 - Tints:
+	
 
 
 - Shades: 
-
+  #fbe7b5;
 
 - Accents:
 - Greys
 
-#343a40
+#191407;
 
 
 --- 05 SHADOWS
@@ -67,6 +68,8 @@ body {
 
 .main-nav-link {
 	color: #f6c445;
+	color: #ddd;
+	color: #fbe7b5;
 	font-size: 2rem;
 	text-decoration: none;
 	padding: 10px;
@@ -79,7 +82,8 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
 	/* color: #191407; */
-	border-bottom: 2px solid #f6c445;
+	/* border-bottom: 2px solid #f6c445; */
+	color: #f6c445;
 }
 
 .grid {
@@ -108,4 +112,12 @@ body {
 	row-gap: 9.6rem;
 
 	/* margin-bottom: 9.6rem; */
+}
+
+/**************************/
+/* UTLITY CLASSES */
+/**************************/
+
+.hide {
+	display: none;
 }
