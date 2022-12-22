@@ -117,6 +117,9 @@
 	gap: 4rem;
 	align-items: center;
 }
+.hero-text-box {
+	width: 100%;
+}
 
 .heading-primary {
 	font-size: 5rem;
