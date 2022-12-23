@@ -122,19 +122,26 @@
 }
 
 .heading-primary {
-	font-size: 5rem;
+	font-size: 5.2rem;
 	line-height: 1.05;
+	margin-bottom: 3.2rem;
+	letter-spacing: -0.5px;
 }
 .my-name {
-	background-color: #212529;
-	background-color: #191407;
-	color: #f6c445;
+	/* background-color: #212529; */
+	/* background-color: #191407; */
+	/* color: #f6c445; */
 	/* text-transform: uppercase; */
 	letter-spacing: 1.5px;
 	font-size: 3rem;
 	font-weight: 400;
 	display: inline-block;
 	padding: 5px 10px;
+}
+.hero-description {
+	font-size: 2rem;
+	line-height: 1.6;
+	margin-bottom: 4.8rem;
 }
 
 .hero-img {
